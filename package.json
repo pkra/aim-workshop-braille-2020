@@ -1,0 +1,24 @@
+{
+  "name": "aim-workshop-braille-2020",
+  "version": "1.0.0",
+  "description": "Some stuff for the AIM workshop on braille print production.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkra/aim-workshop-braille-2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkra/aim-workshop-braille-2020/issues"
+  },
+  "homepage": "https://github.com/pkra/aim-workshop-braille-2020#readme",
+  "dependencies": {
+    "jsdom": "^16.3.0",
+    "puppeteer": "^5.2.1",
+    "speech-rule-engine": "^3.1.0-beta.4"
+  }
+}
