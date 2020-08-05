@@ -1,4 +1,54 @@
- 		 		  		  		 		  		 		 		       ,=
+  ,3t5ts '''''''''''''''''''''''''''' #c
+  ,nota;n ''''''''''''''''''''''''''' #e
+  ,def9i;n '''''''''''''''''''''''''' #f
+    ,illu/ra;n '''''''''''''''''''''' #h
+  ,funda;tal applica;ns ''''''''''''' #i
+    ,l9e> maps '''''''''''''''''''''' #i
+    ,sy/em ( l9e> equa;ns '''''''''' #aa
+    ,dot product1 bil9e> =m & 9n} 
+      product '''''''''''''''''''''' #aa
+  ,g5}al prop}ties ''''''''''''''''' #ac
+    ,non-commutativ;y '''''''''''''' #ac
+    ,4tributiv;y ''''''''''''''''''' #ae
+    ,product ) a scal> ''''''''''''' #ae
+    ,transpose ''''''''''''''''''''' #af
+    ,complex 3jugate ''''''''''''''' #ag
+    ,associativ;y '''''''''''''''''' #ah
+      ,complex;y is n associative '' #ai
+      ,applica;n to simil>;y ''''''' #bj
+  ,squ>e matrices '''''''''''''''''' #bb
+    ,p{}s ( a matrix ''''''''''''''' #bc
+  ,ab/ract algebra ''''''''''''''''' #be
+  ,computa;nal complex;y ''''''''''' #bg
+    ,relat$ complexities ''''''''''' #bh
+    ,matrix 9v}.n1 det}m9ant &
+      ,gaussian elim9a;n ''''''' #cj  #a
+  ,see al '''''''''''''''''''''''''' #cd
+  ,notes ''''''''''''''''''''''''''' #ce
+  ,ref};es ''''''''''''''''''''''''' #da
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      #b
+ 		 		  		  		 		  		 		 		       ,=
 matrix multiplica;n1 ! numb} ( columns 9
 ! f/ matrix m/ 2 equal to ! numb} ( r{s
 9 ! second matrix4 ,! result matrix has
@@ -24,7 +74,32 @@ physics1 economics1 & 5g9e}+4 .<#b.>
 .<#c.>  ,comput+ matrix products is a
 c5tral op}a;n 9 all computa;nal       #a
 applica;ns ( l9e> algebra4
-   ,3t5ts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      #b
+                  ,3t5ts
+
 #a ,nota;n
 #b ,def9i;n
 #b4a ,illu/ra;n
@@ -47,12 +122,34 @@ c5tral op}a;n 9 all computa;nal       #a
 #f ,ab/ract algebra
 #g ,computa;nal complex;y
 #g4a ,relat$ complexities
-#g4b ,matrix 9v}.n1 det}m9ant &       #b
+#g4b ,matrix 9v}.n1 det}m9ant &       #c
   ,gaussian elim9a;n
 #h ,see al
 #i ,notes
 #aj ,ref};es
-    ,nota;n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      #d
+                 ,nota;n
+
   ,? >ticle w use ! foll{+ nota;nal
 3v5;ns3 matrices >e repres5t$ by capital
 lrs 9 bold1 e4g4  ~2,a 1 vectors 9
@@ -67,13 +164,23 @@ lit}ature4 ,!  i1 ;j  5try ( matrix
 matrix 5tries"> on a collec;n ( matrices
 is subscript$ only1 e4g4  ~2,,,a #a1
 ~2a,' #b1 etc4
-  ,def9i;n
+
+
+
+
+
+
+
+
+                                      #e
+                 ,def9i;n
+
   ,if  ~2,a  is an  ;m "8 ;n  matrix &
 ~2;,b  is an  ;n "8 ;p  matrix1
   _% _,a .k ,(a11 a12 ''' a;1n",) ,(a21
 a22 ''' a;2n",) ,(<''' <''' ;''' <''',)
-,(a;m"1" a;m"2" ''' a;mn",), _,b .k   #c
-,(b11 b12 ''' b;1p",) ,(b21 b22 '''
+,(a;m"1" a;m"2" ''' a;mn",), _,b .k
+,(b11 b12 ''' b;1p",) ,(b21 b22 '''
 b;2p",) ,(<''' <''' ;''' <''',) ,(b;n"1"
 b;n"2" ''' b;np",) _:
   ! matrix product  ~2;,,,c "7 ~1;ab,'
@@ -90,15 +197,15 @@ a;i"1"b;1j"+a;i"2"b;2j"+'''+a;in"b;nj"
   =  i "7 #a1 4441 ;m  &  ;j "7 #a1 4441
 ;p 4
   ,t is1 ! 5try _% c;ij _: ( ! product
-is obta9$ by multiply+ t}m-by-t}m !
-5tries ( ! i? r{ (  ~2,a  & ! j? column
+is obta9$ by multiply+ t}m-by-t}m !   #f
+5tries ( ! i? r{ (  ~2,a  & ! j? column
 (  ~2;,b 1 & summ+ ~! ;n products4 ,9
 o!r ~ws1 _% c;ij _: is ! dot product ( !
 i? r{ (  ~2,a  & ! j? column (  ~2;,b 4
   ,"!=e1  ~1;,,ab  c al 2 writt5 z
   _% _,c .k ,(a11b11+'''+a;1n"b;n"1"
-a11b12+'''+a;1n"b;n"2" '''            #d
-a11b;1p"+'''+a;1n"b;np",)
+a11b12+'''+a;1n"b;n"2" '''
+a11b;1p"+'''+a;1n"b;np",)
 ,(a21b11+'''+a;2n"b;n"1"
 a21b12+'''+a;2n"b;n"2" '''
 a21b;1p"+'''+a;2n"b;np",) ,(<''' <'''
@@ -115,15 +222,16 @@ addi;n & a multiplica;n >e def9$1 t >e
 associative1 & s* t ! addi;n is
 commutative1 & ! multiplica;n is
 4tributive ) respect to ! addi;n4 ,9
-"picul>1 ! 5tries may 2 matrices !mvs
-"<see block matrix">4
-  ,illu/ra;n
+"picul>1 ! 5tries may 2 matrices      #g
+!mvs "<see block matrix">4
+
+                ,illu/ra;n
+
   ,! figure to ! "r illu/rates
 diagrammatically ! product ( two
 matrices  ~2,a  &  ~2;,b 1 %{+ h{ ea*
 9t}sec;n 9 ! product matrix corresponds
-to a r{ (  ~2,a  & a column (  ~2;,b  #e
-4
+to a r{ (  ~2,a  & a column (  ~2;,b 4
   _% "`,(a11 a12`,) `,(* *`,) `,(a31
 a32`,) `,(* *`,)<#4`*2 matrix}"`,(* b12
 b13`,) `,(* b22 b23`,)<#2`*3 matrix} .k
@@ -132,7 +240,16 @@ c33`,) `,(* * *`,)<#4`*3 matrix} _:
   ,! values at ! 9t}sec;ns m>k$ )
 circles >e3
   _% c12  .k a11b12+a12b22 c33  .k
-a31b13+a32b23 _:   ,funda;tal applica;ns
+a31b13+a32b23 _:
+
+
+
+
+
+
+                                      #h
+          ,funda;tal applica;ns
+
   ,hi/orically1 matrix multiplica;n has
 be5 9troduc$ = mak+ easi} & cl>ify+
 computa;ns 9 l9e> algebra4 ,? /r;g
@@ -140,21 +257,23 @@ rela;n%ip 2t matrix multiplica;n & l9e>
 algebra rema9s funda;tal 9 all
 ma!matics1 z well z 9 physics1 5g9e}+ &
 comput} sci;e4
-  ,l9e> maps
+
+                ,l9e> maps
+
   ,if a vector space has a f9ite basis1
 xs vectors >e ea* uniquely repres5t$ by
 a f9ite sequ;e ( scal>s1 call$ a
 coord9ate vector1 ~: ele;ts >e !
 coord9ates ( ! vector on ! basis4 ,~!
 coord9ate vectors =m ano!r vector space1
-: is isomorphic to ! orig9al vector   #f
-space4 ,a coord9ate vector is commonly
+: is isomorphic to ! orig9al vector
+space4 ,a coord9ate vector is commonly
 organiz$ z a column matrix "<al call$
 column vector">1 : is a matrix ) only "o
 column4 ,s1 a column vector repres5ts
 bo? a coord9ate vector1 & a vector ( !
-orig9al vector space4
-  ,a l9e> map ,a f a vector space (
+orig9al vector space4                 #i
+  ,a l9e> map ,a f a vector space (
 dim5.n ;n 9to a vector space ( dim5.n ;m
 maps a column vector
   _% _x .k x1 x2 <''' x;n _:
@@ -172,17 +291,21 @@ matrix product
   _% _y .k _,a_x." _:
   ,if ;,b is ano!r l9e> map f ! prec$+
 vector space ( dim5.n ;m1 9to a vector
-space ( dim5.n ;p1 x is repres5t$ by  #g
-a _% p`*m _: matrix _% _,b." _: ,a
+space ( dim5.n ;p1 x is repres5t$ by a
+_% p`*m _: matrix _% _,b." _: ,a
 /rai<t=w>d computa;n %{s t ! matrix ( !
 composite map _% ,b~.*,a _: is ! matrix
 product _% _,b_,a." _: ,! g5}al =mula
 _% (,b~.*,a)(_x) .k ,b(,a(_x)) _:"> t
-def9es ! func;n composi;n is 9/.ed "h z
-a specific case ( associativ;y ( matrix
-product "<see ~s ,associativ;y1 2l">3
+def9es ! func;n composi;n is 9/.ed   #aj
+"h z a specific case ( associativ;y (
+matrix product "<see ~s ,associativ;y1
+2l">3
   _% (_,b_,a)_x .k _,b(_,a_x) .k
-_,b_,a_x." _:   ,sy/em ( l9e> equa;ns
+_,b_,a_x." _:
+
+          ,sy/em ( l9e> equa;ns
+
   ,! g5}al =m ( a sy/em ( l9e> equa;ns
 is
   _% a11x1+'''+a;1n"x;n" .k b1
@@ -190,15 +313,18 @@ a21x1+'''+a;2n"x;n" .k b2 <'''
 a;m"1"x1+'''+a;mn"x;n" .k b;m"." _:
   ,us+ same nota;n z abv1 s* a sy/em is
 equival5t ) ! s+le matrix equa;n
-  _% _,a_x .k _b." _:     ,dot product1
-bil9e> =m & 9n} product
+  _% _,a_x .k _b." _:
+
+  ,dot product1 bil9e> =m & 9n} product
+
   ,! dot product ( two column vectors is
 ! matrix product
   _% _x~,.,t"_y, _:
   ": _% _x~,.,t _: is ! r{ vector obta9$
 by transpos+ _% _x _: & ! result+ #a"8#a
-matrix is id5tifi$ ) xs unique 5try4  #h
-  ,m g5}ally1 any bil9e> =m ov} a vector
+matrix is id5tifi$ ) xs unique       #aa
+5try4
+  ,m g5}ally1 any bil9e> =m ov} a vector
 space ( f9ite dim5.n may 2 express$ z a
 matrix product
   _% _x~,.,t"_,a_y, _:
@@ -208,7 +334,22 @@ matrix product
 transpose ( _% _x _: "<3jugate ( !
 transpose1 or equival5tly transpose ( !
 3jugate">4
-  ,g5}al prop}ties
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     #ab
+             ,g5}al prop}ties
+
   ,matrix multiplica;n %>es "s prop}ties
 ) usual multiplica;n4 ,h{"e1 matrix
 multiplica;n is n def9$ if ! numb} (
@@ -217,21 +358,23 @@ r{s ( ! second factor1 & x is
 non-commutative1 ev5 :5 ! product rema9s
 def9ite af *ang+ ! ord} ( ! factors4
 .<#h.> .<#i.>
-  ,non-commutativ;y
+
+            ,non-commutativ;y
+
   ,an op}a;n is commutative if1 giv5 two
 ele;ts  ~2,a  &  ~2;,b  s* t ! product
 _% _,a_,b _: is def9$1 !n _% _,b_,a _:
 is al def9$1 & _% _,a_,b .k _,b_,a." _:
-  ,if  ~2,a  &  ~2;,b  >e matrices (  #i
-respective sizes _% m`*n _: &
+  ,if  ~2,a  &  ~2;,b  >e matrices (
+respective sizes _% m`*n _: &
 _% p`*q _:1 !n _% _,a_,b _: is def9$ if
 _% n .k p _:1 & _% _,b_,a _: is def9$ if
 _% m .k q _:4 ,"!=e1 if "o ( ! products
 is def9$1 ! o!r is n def9$ 9 g5}al4 ,if
 _% m .k q /.k n .k p _:1 ! two products
->e def9$1 b h di6}5t sizes2 ?us !y _c 2
-equal4  ,only if _% m .k q .k n .k p _:1
-t is if  ~2,a  &  ~2;,b  >e squ>e
+>e def9$1 b h di6}5t sizes2 ?us !y   #ac
+_c 2 equal4  ,only if _% m .k q .k n .k
+p _:1 t is if  ~2,a  &  ~2;,b  >e squ>e
 matrices ( ! same size >e bo? products
 def9$ & ! same size4 ,ev5 9 ? case1 "o
 has 9 g5}al
@@ -247,19 +390,21 @@ has 9 g5}al
 a field ;,f1 !n _% _,a_,b .k _,b_,a _: =
 e _% n`*n _: matrix  ~2;,b  ) 5tries 9
 ;,f1 if & only if _% _,a .k c_,i _: ":
-_% c `e ,f _:1 &  ~2,i  is !         #aj
-_% n`*n _: id5t;y matrix4 ,if1 9/1d ( a
-field1 ! 5tries >e suppos$ to 2l;g to a
-r+1 !n "o m/ add ! 3di;n t ;c 2l;gs to !
-c5t} ( ! r+4
+_% c `e ,f _:1 &  ~2,i  is ! _% n`*n _:
+id5t;y matrix4 ,if1 9/1d ( a field1 !
+5tries >e suppos$ to 2l;g to a r+1 !n "o
+m/ add ! 3di;n t ;c 2l;gs to ! c5t} ( !
+r+4
   ,"o special case ": commutativ;y does
 o3ur is :5  ~2;,d  &  ~2;,e  >e two
-"<squ>e"> diagonal matrices "<( ! same
-size">2 !n  ~1,,,de "7 ~1$,' 4 ,ag1 if !
-matrices >e ov} a g5}al r+ r ?an a
+"<squ>e"> diagonal matrices "<( !    #ad
+same size">2 !n  ~1,,,de "7 ~1$,' 4 ,ag1
+if ! matrices >e ov} a g5}al r+ r ?an a
 field1 ! correspond+ 5tries 9 ea* m/ al
 commute ) ea* o!r = ? to hold4
-  ,4tributiv;y
+
+               ,4tributiv;y
+
   ,! matrix product is 4tributive )
 respect to matrix addi;n4 ,t is1 if
 ~2,,,a1 ~2;b1 ~2;c1 ~2;d,'  >e matrices
@@ -272,11 +417,13 @@ respect to matrix addi;n4 ,t is1 if
   ,? results f ! 4tributiv;y =
 coe6ici5ts by
   _% ".,s%k}a;ik"(b;kj"+c;kj") .k
-".,s%k}a;ik"b;kj"+".,s%k}a;ik"c;kj-  #aa
- _:   _% ".,s%k}(b;ik"+c;ik")d;kj" .k
+".,s%k}a;ik"b;kj"+".,s%k}a;ik"c;kj _:
+_% ".,s%k}(b;ik"+c;ik")d;kj" .k
 ".,s%k}b;ik"d;kj"+".,s%k}c;ik"d;kj"." _:
-  ,product ) a scal>
-  ,if  ~2,a  is a matrix & ;c a scal>1
+
+            ,product ) a scal>
+                                     #ae
+  ,if  ~2,a  is a matrix & ;c a scal>1
 !n ! matrices _% c_,a _: & _% _,ac _: >e
 obta9$ by left or "r multiply+ all
 5tries (  ~2,a  by ;c4 ,if ! scal>s h !
@@ -297,9 +444,11 @@ matrices1 2c 9 ? case  ;c ~2;,,,x "7
 product ( scal>s3
   _% c(".,s%k}a;ik"b;kj") .k
 ".,s%k}(ca;ik")b;kj _:
-_% (".,s%k}a;ik"b;kj")c .k           #ab
-".,s%k}a;ik"(b;kj"c)." _:   ,transpose
-  ,if ! scal>s h ! commutative prop}ty1
+_% (".,s%k}a;ik"b;kj")c .k
+".,s%k}a;ik"(b;kj"c)." _:
+
+                ,transpose           #af
+  ,if ! scal>s h ! commutative prop}ty1
 ! transpose ( a product ( matrices is !
 product1 9 ! rev}se ord}1 ( ! transposes
 ( ! factors4 ,t is
@@ -311,7 +460,9 @@ _,b~,.,t"_,a~,.,t _:
 5tries1 s9ce ! ord} 2t ! 5tries (  ~2,a
 &  ~2;,b  is rev}s$1 :5 "o exp&s !
 def9i;n ( ! matrix product4
-  ,complex 3jugate
+
+             ,complex 3jugate
+
   ,if  ~2,a  &  ~2;,b  h complex 5tries1
 !n
   _% (_,a_,b)~`#" .k _,a~`#"_,b~`# _:
@@ -321,16 +472,18 @@ def9i;n ( ! matrix product4
 matrix product ! fact t ! 3jugate ( a
 sum is ! sum ( ! 3jugates ( ! summ&s & !
 3jugate ( a product is ! product ( !
-3jugates ( ! factors4
-  ,transposi;n acts on ! 9dices ( !  #ac
-5tries1 :ile 3juga;n acts 9dep5d5tly on
+3jugates ( ! factors4                #ag
+  ,transposi;n acts on ! 9dices ( !
+5tries1 :ile 3juga;n acts 9dep5d5tly on
 ! 5tries !mvs4 ,x results t1 if  ~2,a  &
  ~2;,b  h complex 5tries1 "o has
   _% (_,a_,b)~_}" .k _,b~_}"_,a~_}", _:
   ":  `,? d5otes ! 3jugate transpose
 "<3jugate ( ! transpose1 or equival5tly
 transpose ( ! 3jugate">4
-  ,associativ;y
+
+              ,associativ;y
+
   ,giv5 ?ree matrices  ~2,a1 ~2;,b  &
 ~2;,c 1 ! products "<~1,,ab~'">~2,c  &
 ~2,a"<~1,,bc~'"> >e def9$ if & only if !
@@ -344,13 +497,13 @@ def9$1 ! o!r is al def9$">4 ,9 ? case1
   ,z = any associative op}a;n1 ? all{s
 omitt+ p>5!ses1 & writ+ ! abv products z
 _% _,a_,b_,c." _:
-  ,? ext5ds naturally to ! product ( any
-numb} ( matrices provid$ t ! dim5.ns
-mat*4 ,t is1 if  ~2,,,a #a1 ~2a #b1 4441
-~2a,' ;n  >e matrices s* t ! numb}   #ad
-( columns (  ~2,a i  equals ! numb} (
-r{s (  ~2,a i "6 #a =  i "7 #a1 4441 ;n
-,- #a1 !n ! product
+  ,? ext5ds naturally to ! product   #ah
+( any numb} ( matrices provid$ t !
+dim5.ns mat*4 ,t is1 if  ~2,,,a #a1 ~2a
+#b1 4441 ~2a,' ;n  >e matrices s* t !
+numb} ( columns (  ~2,a i  equals !
+numb} ( r{s (  ~2,a i "6 #a =  i "7 #a1
+4441 ;n ,- #a1 !n ! product
   _% "'\x220f'%i .k #1<n}_,a;i" .k
 _,a1_,a2 ''' _,a;n" _:
   is def9$ & does n dep5d on ! ord} ( !
@@ -363,17 +516,18 @@ fact t matrices repres5t l9e> maps4
 ,"!=e1 ! associative prop}ty ( matrices
 is simply a specific case ( !
 associative prop}ty ( func;n composi;n4
-  ,complex;y is n associative
+
+    ,complex;y is n associative
   ,al? ! result ( a sequ;e ( matrix
 products does n dep5d on ! ord} ( op}a;n
 "<provid$ t ! ord} ( ! matrices is n
 *ang$">1 ! computa;nal complex;y may
-dep5d dramatically on ? ord}4
-  ,= example1 if  ~2,a1 ~2;,b  &  ~2;,c
+dep5d dramatically on ? ord}4        #ai
+  ,= example1 if  ~2,a1 ~2;,b  &  ~2;,c
 >e matrices ( respective sizes #aj"8#cj1
 #cj"8#e1 #e"8#fj1 comput+
-"<~1,,ab~'">~2,c  ne$s #aj"8#cj"8#e  #ae
-"6 #aj"8#e"8#fj "7 #d1ejj multiplica;ns1
+"<~1,,ab~'">~2,c  ne$s #aj"8#cj"8#e "6
+#aj"8#e"8#fj "7 #d1ejj multiplica;ns1
 :ile comput+  ~2,a"<~1,,bc~'"> ne$s
 #cj"8#e"8#fj "6 #aj"8#cj"8#fj "7 #bg1jjj
 multiplica;ns4
@@ -383,7 +537,8 @@ multiplica;n4 ,:5 ! numb} ;n ( matrices
 9cr1ses1 x has be5 %{n t ! *oice ( ! be/
 ord} has a complex;y ( _% ,o(nlog
 n)." _:
-  ,applica;n to simil>;y
+
+    ,applica;n to simil>;y
   ,any 9v}tible matrix _% _,p _: def9es
 a simil>;y trans=ma;n "<on squ>e
 matrices ( ! same size z _% _,p _:">
@@ -392,14 +547,37 @@ matrices ( ! same size z _% _,p _:">
 products1 t is
   _% ,s;_,p"(_,a_,b) .k
 ,s;_,p"(_,a),s;_,p"(_,b)." _:
-  ,9 fact1 "o has
-  _% _,p~-#1"(_,a_,b)_,p .k
+  ,9 fact1 "o has                    #bj
+  _% _,p~-#1"(_,a_,b)_,p .k
 _,p~-#1"_,a(_,p_,p~-#1")_,b_,p .k
 (_,p~-#1"_,a_,p)(_,p~-#1"_,b_,p)." _:
-,squ>e matrices
-  ,let u d5ote _% `,m;n"(,r) _: !    #af
-set (  n"8 ;n  squ>e matrices ) 5tries 9
-a r+ ;,r1 :1 9 practice1 is (t5 a field4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     #ba
+             ,squ>e matrices
+
+  ,let u d5ote _% `,m;n"(,r) _: ! set (
+n"8 ;n  squ>e matrices ) 5tries 9 a r+
+;,r1 :1 9 practice1 is (t5 a field4
   ,9 _% `,m;n"(,r) _:1 ! product is
 def9$ = e pair ( matrices4 ,? makes
 _% `,m;n"(,r) _: a r+1 : has ! id5t;y
@@ -419,11 +597,11 @@ _,i." _:
 9v}tible matrix4 ,o!rwise1 x is a s+ul>
 matrix4
   ,a product ( matrices is 9v}tible if &
-only if ea* factor is 9v}tible4 ,9 ?
-case1 "o has
+only if ea* factor is 9v}tible4 ,9   #bb
+? case1 "o has
   _% (_,a_,b)~-#1" .k
-_,b~-#1"_,a~-#1"." _:                #ag
-  ,:5 ;,r is commutative1 &1 9 "picul>1
+_,b~-#1"_,a~-#1"." _:
+  ,:5 ;,r is commutative1 &1 9 "picul>1
 :5 x is a field1 ! det}m9ant ( a product
 is ! product ( ! det}m9ants4 ,z
 det}m9ants >e scal>s1 & scal>s commute1
@@ -438,17 +616,19 @@ polynomial1 & ! same eig5values ) ! same
 multiplicities4 ,h{"e1 ! eig5vectors >e
 g5}ally di6}5t if _% _,a_,b /.k
 _,b_,a." _:
-  ,p{}s ( a matrix
+
+             ,p{}s ( a matrix
+
   ,"o may raise a squ>e matrix to any
 nonnegative 9teg} p{} multiply+ x by xf
 rep1t$ly 9 ! same way z = ord9>y numb}s4
-,t is1
-  _% _,a~0" .k _,i, _:   _% _,a~1" .k
+,t is1                               #bc
+  _% _,a~0" .k _,i, _:   _% _,a~1" .k
 _,a, _:   _% _,a~k" .k ""_,a_,a '''
 _,a%'\x23df'}%k times}." _:
   ,comput+ ! k? p{} ( a matrix ne$s  ;k
-,- #a "ts ! "t ( a s+le matrix       #ah
-multiplica;n1 if x is d"o ) ! trivial
+,- #a "ts ! "t ( a s+le matrix
+multiplica;n1 if x is d"o ) ! trivial
 algori?m "<rep1t$ multiplica;n">4 ,z ?
 may 2 v "t 3sum+1 "o g5}ally pref}s us+
 expon5tia;n by squ>+1 : requires less
@@ -464,16 +644,20 @@ obta9$ by rais+ ! 5tries to ! p{}  ;k 3
 ,(<''' <''' ;''' <''',) ,(0 0 '''
 a;nn",)~k" .k ,(a11~k" 0 ''' 0,) ,(0
 a22~k" ''' 0,) ,(<''' <''' ;''' <''',)
-,(0 0 ''' a;nn~k",)." _:   ,ab/ract
-algebra
+,(0 0 ''' a;nn~k",)." _:
+
+
+                                     #bd
+             ,ab/ract algebra
+
   ,! def9i;n ( matrix product requires t
 ! 5tries 2l;g to a semir+1 & does n
 require multiplica;n ( ele;ts ( ! semir+
 to 2 commutative4 ,9 _m applica;ns1 !
 matrix ele;ts 2l;g to a field1 al? !
 tropical semir+ is al a common *oice =
-graph %orte/ pa? problems4 .<#aj.>   #ai
-,ev5 9 ! case ( matrices ov} fields1 !
+graph %orte/ pa? problems4 .<#aj.>  ,ev5
+9 ! case ( matrices ov} fields1 !
 product is n commutative 9 g5}al1 al? x
 is associative & is 4tributive ov}
 matrix addi;n4 ,! id5t;y matrices "<: >e
@@ -488,8 +672,8 @@ gr.d r+ is commutative4
 9v}se1 call$ an 9v}se matrix4 ,9 !
 common case ": ! 5tries 2l;g to a
 commutative r+ ;r1 a matrix has an 9v}se
-if & only if xs det}m9ant has a
-multiplicative 9v}se 9 ;r4 ,! det}m9ant
+if & only if xs det}m9ant has a      #be
+multiplicative 9v}se 9 ;r4 ,! det}m9ant
 ( a product ( squ>e matrices is !
 product ( ! det}m9ants ( ! factors4 ,!
 ;n "8 ;n  matrices t h an 9v}se =m a
@@ -497,11 +681,29 @@ gr|p "u matrix multiplica;n1 ! subgr|ps
 ( : >e call$ matrix gr|ps4 ,_m classical
 gr|ps "<9clud+ all f9ite gr|ps"> >e
 isomorphic to matrix gr|ps2 ? is ! />t+
-po9t ( ! !ory ( gr|p repres5ta;ns4   #bj
-  ,computa;nal complex;y  ,= imple;ta;n
-te*niques "<9 "picul> p>allel & 4tribut$
-algori?ms">1 see ,matrix multiplica;n
-algori?m4      ,! b.d on .w ov} "t
+po9t ( ! !ory ( gr|p repres5ta;ns4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     #bf
+          ,computa;nal complex;y
+
+ ,= imple;ta;n te*niques "<9 "picul>
+p>allel & 4tribut$ algori?ms">1 see
+,matrix multiplica;n algori?m4      ,!
+b.d on .w ov} "t
   ,! matrix multiplica;n algori?m t
 results ( ! def9i;n requires1 9 ! wor/
 case1 _% n~3 _: multiplica;ns ( scal>s &
@@ -520,14 +722,14 @@ call$ ,/rass5's algori?m1 ) a complex;y
 #7")'\x2248',o(n~2.807")." _: ,! expon5t
 appe>+ 9 ! complex;y ( matrix
 multiplica;n has be5 improv$ s"eal "ts1
-l1d+ to  ,copp}smi?,-,w9ograd algori?m )
-a complex;y (  ,o"< ;n #b4cgf">
-"<#aiij">4 .<#aa.>  ,? algori?m has  #ba
-be5 sli<tly improv$ 9 #bjac by ,virg9ia
-,vassilevska ,williams to a complex;y (
-,o"< ;n #b4cgbi"> & 9 #bjad by
-,fran~&cois ,le ,gall1 = a f9al "<up to
-date"> complex;y (  ,o"< ;n
+l1d+ to  ,copp}smi?,-,w9ograd        #bg
+algori?m ) a complex;y (  ,o"< ;n
+#b4cgf"> "<#aiij">4 .<#aa.>  ,? algori?m
+has be5 sli<tly improv$ 9 #bjac by
+,virg9ia ,vassilevska ,williams to a
+complex;y (  ,o"< ;n #b4cgbi"> & 9 #bjad
+by ,fran~&cois ,le ,gall1 = a f9al "<up
+to date"> complex;y (  ,o"< ;n
 #b4cgbhfci">4 .<#ab.>
   ,! grte/ l{} b.d = ! expon5t ( matrix
 multiplica;n algori?m is g5}ally call$
@@ -540,15 +742,17 @@ b.d = matrix-multiplica;n complex;y is
 ,.w"< ;n #b log"< ;n">">1 = a re/rict$
 k9d ( >i?metic circuits1 & is due to
 ,ran ,raz4 .<#ac.>
-  ,relat$ complexities
+
+           ,relat$ complexities
+
   ,! import.e ( ! computa;nal complex;y
 ( matrix multiplica;n relies on ! facts
-t _m algori?mic problems may 2 solv$ by
-m1ns ( matrix computa;n1 & mo/ problems
-on matrices h a complex;y : is ei ! same
-z t ( matrix multiplica;n "<up to a
-multiplicative 3/ant">1 or may 2     #bb
-express$ 9 t}m ( ! complex;y ( matrix
+t _m algori?mic problems may 2       #bh
+solv$ by m1ns ( matrix computa;n1 & mo/
+problems on matrices h a complex;y : is
+ei ! same z t ( matrix multiplica;n "<up
+to a multiplicative 3/ant">1 or may 2
+express$ 9 t}m ( ! complex;y ( matrix
 multiplica;n or xs expon5t _% .o." _:
   ,"! >e s"eal advantages ( express+
 complexities 9 t}ms ( ! expon5t _% .o _:
@@ -568,14 +772,16 @@ rema9s valid :i*"e algori?m is *os5 =
 matrix computa;n4
   ,problems t h ! same asymptotic
 complex;y z matrix multiplica;n 9clude
-det}m9ant1 matrix 9v}.n1 ,gaussian
-elim9a;n "<see next sec;n">4 ,problems )
+det}m9ant1 matrix 9v}.n1 ,gaussian   #bi
+elim9a;n "<see next sec;n">4 ,problems )
 complex;y t is expressible 9 t}ms (
 _% .o _: 9clude "*i/ic polynomial1
-eig5values "<b n eig5vectors">1      #bc
-,h}mite normal =m1 & ,smi? normal =m4
-    ,matrix 9v}.n1 det}m9ant & ,gaussian
-elim9a;n
+eig5values "<b n eig5vectors">1 ,h}mite
+normal =m1 & ,smi? normal =m4
+
+   ,matrix 9v}.n1 det}m9ant & ,gaussian
+                elim9a;n
+
   ,9 8 #aifi pap}1 ": he prov$ !
 complex;y _% ,o(n~2.807") _: = matrix
 computa;n1 ,/rass5 prov$ al t ,matrix
@@ -591,14 +797,14 @@ block matrix multiplica;n4
 ,specifically1 a matrix ( ev5 dim5.n #b
 n"8#b ;n  may 2 "pi;n$ 9 f|r  n"8 ;n
 blocks
-  _% `,(,a ,b`,) `,(,c ,d`,)." _:
-  ,"u ? =m1 xs 9v}se is
+  _% `,(,a ,b`,) `,(,c ,d`,)." _:    #cj
+  ,"u ? =m1 xs 9v}se is
   _% `,(,a ,b`,) `,(,c ,d`,)~-#1" .k
 `,(,a~-#1"+,a~-#1",b(,d-,c,a~-#1",b)~-#-
 1",c,a~-#1"
 -,a~-#1",b(,d-,c,a~-#1",b)~-#1"`,)
-`,(-(,d-,c,a~-#1",b)~-#1",c,a~-#1"   #bd
-(,d-,c,a~-#1",b)~-#1"`,), _:
+`,(-(,d-,c,a~-#1",b)~-#1",c,a~-#1"
+(,d-,c,a~-#1",b)~-#1"`,), _:
   provid$ t ,a & _% ,d-,c,a~-#1",b _: >e
 9v}tible4
   ,?us1 ! 9v}se ( a #b n"8#b ;n  matrix
@@ -616,14 +822,14 @@ n"8 ;n  matrices1 "o has
   _% ,i(#2~k")  "k:
 #2,i(#2~k-1")+6,m(#2~k-1")+4,a(#2~k-1")
   "k:
-#2~2",i(#2~k-2")+6(,m(#2~k-1")+2,m(#2~k-
--2"))+4(,a(#2~k-1")+2,a(#2~k-2"))
+#2~2",i(#2~k-2")+6(,m(#2~k-1")+2,m-  #ca
+(#2~k-2"))+4(,a(#2~k-1")+2,a(#2~k-2"))
 ''' _:
   ,if _% ,m(n) "k: cn~.o", _: & _% .a .k
 #2~.o" .1: #4, _: "o gets ev5tually
   _% ,i(#2~k")  "k:
-#2~k",i(#1)+6c(.a~k-1"+2.a~k-2"+''-  #be
-'+2~k-1".a~0")+k2~k+1"    "k:
+#2~k",i(#1)+6c(.a~k-1"+2.a~k-2"+'''+2~k-
+-1".a~0")+k2~k+1"    "k:
 #2~k"+6c?.a~k"-2~k"/.a-2#+k2~k+1"    "k:
 d(2~k")~.o"." _:
   = "s 3/ant ;d4
@@ -641,19 +847,34 @@ probabil;y "o4
   ,! same >gu;t applies to ,,lu
 decomposi;n1 z1 if ! matrix ,a is
 9v}tible1 ! equal;y
-  _% `,(,a ,b`,) `,(,c ,d`,) .k `,(,i
-0`,) `,(,c,a~-#1" ,i`,)`,(,a ,b`,) `,(0
-,d-,c,a~-#1",b`,) _:
+  _% `,(,a ,b`,) `,(,c ,d`,) .k      #cb
+`,(,i 0`,) `,(,c,a~-#1" ,i`,)`,(,a ,b`,)
+`,(0 ,d-,c,a~-#1",b`,) _:
   def9es a block ,,lu decomposi;n t may
 2 appli$ recursively to _% ,a _: &
 _% ,d-,c,a~-#1",b, _: = gett+ ev5tually
-a true ,,lu decomposi;n ( ! orig9al  #bf
-matrix4
+a true ,,lu decomposi;n ( ! orig9al
+matrix4
   ,! >gu;t applies al = ! det}m9ant1
 s9ce x results f ! block ,,lu
 decomposi;n t
   _% det `,(,a ,b`,) `,(,c ,d`,) .k det
-(,a)det (,d-,c,a~-#1",b)." _:   ,see al
+(,a)det (,d-,c,a~-#1",b)." _:
+
+
+
+
+
+
+
+
+
+
+
+
+                                     #cc
+                 ,see al
+
 ,matrix calculus1 = ! 9t}ac;n ( matrix
   multiplica;n ) op}a;ns f calculus
 ,o!r types ( products ( matrices3
@@ -672,8 +893,14 @@ decomposi;n t
 ,|t} product1 al call$ dyadic product or
   t5sor product ( two column matrices1 :
   is _% _a_b~,.,t _:
-  ,notes                             #bg
-,o',connor1 ,john ;,j42 ,rob}tson1
+
+
+
+
+                                     #cd
+                  ,notes
+
+,o',connor1 ,john ;,j42 ,rob}tson1
   ,$mund ;,f41 8,jacques ,philippe ,m>ie
   ,b9et01  ,mac,tutor ,hi/ory (
   ,ma!matics >*ive 1 ,univ}s;y ( ,st
@@ -695,10 +922,10 @@ decomposi;n t
   size3#ipx2background-posi;n;3"r #4a;em
   c5t}_>4mw-p>s}-|tput 4id-lock-limit$
   a14mw-p>s}-|tput 4id-lock-regi/ra;n
-  a14mw-p>s}-|tput 4cita;n
-  4cs#a-lock-limit$ a14mw-p>s}-|tput
-  4cita;n 4cs#a-lock-regi/ra;n       #bh
-  a_<backgr.d-image;3url"<,7_/_/upload4-
+  a14mw-p>s}-|tput 4cita;n           #ce
+  4cs#a-lock-limit$ a14mw-p>s}-|tput
+  4cita;n 4cs#a-lock-regi/ra;n
+  a_<backgr.d-image;3url"<,7_/_/upload4-
   wikim$ia4org_/wikip$ia_/commons_/?umb-
   _/d_/d#f_/,lock-gray-;alt-#b4svg_/#ip-
   x-,lock-gray-;alt-#b4svg4png,7">2back-
@@ -720,10 +947,10 @@ decomposi;n t
   rg_/wikip$ia_/commons_/a_/aa_/,lock-r-
   $-;alt-#b4svg,7">2background-rep1t;3n-
   o-rep1t;2backgr.d-size3#ipx2backgroun-
-  d-posi;n;3"r #4a;em
-  c5t}_>4mw-p>s}-|tput
-  4cs#a-subscrip;n14mw-p>s}-|tput    #bi
-  4cs#a-regi/ra;n_<color3_?#eee_>4mw-p>-
+  d-posi;n;3"r #4a;em                #cf
+  c5t}_>4mw-p>s}-|tput
+  4cs#a-subscrip;n14mw-p>s}-|tput
+  4cs#a-regi/ra;n_<color3_?#eee_>4mw-p>-
   s}-|tput 4cs#a-subscrip;n
   span14mw-p>s}-|tput 4cs#a-regi/ra;n
   span_<bord}-bottom3#apx
@@ -745,12 +972,11 @@ decomposi;n t
   >4mw-p>s}-|tput
   4cs#a-hidd5-}ror_<display;3n"o;2font--
   size3#ajj.0_>4mw-p>s}-|tput
-  4cs#a-visible-}ror_<font-size3#ajj.0_-
-  >4mw-p>s}-|tput
-  4cs#a-ma9t_<display;3n"o;2color3-  #cj
-  _?#cc;aa#cc2margin-left3#j4c;em_>4mw--
-  p>s}-|tput
-  4cs#a-subscrip;n14mw-p>s}-|tput
+  4cs#a-visible-}ror_<font-size3#a-  #cg
+  jj.0_>4mw-p>s}-|tput
+  4cs#a-ma9t_<display;3n"o;2color3_?#cc-
+  ;aa#cc2margin-left3#j4c;em_>4mw-p>s}--
+  |tput 4cs#a-subscrip;n14mw-p>s}-|tput
   4cs#a-regi/ra;n14mw-p>s}-|tput
   4cs#a-=mat_<font-size3#ie.0_>4mw-p>s}-
   -|tput 4cs#a-k}n-left14mw-p>s}-|tput
@@ -771,9 +997,9 @@ decomposi;n t
   "<#bjji">4 ,l9e> ,algebra4 ,s*aum's
   ,|tl9es "<#dth $4">4 ,mc,graw ,hill
   "<,,usa">4 pp4 #cj,-#ca4
-  ,,isbn #igh-#j-#jg-#aedceb-#a4
-,riley1 ;,k4 ;,f42 ,hobson1 ;,m4     #ca
-  ;,p42 ,b;e1 ;,s4 ;,j4 "<#bjaj">4
+  ,,isbn #igh-#j-#jg-#aedceb-#a4     #ch
+,riley1 ;,k4 ;,f42 ,hobson1 ;,m4 ;,p42
+  ,b;e1 ;,s4 ;,j4 "<#bjaj">4
   ,ma!matical me?ods = physics & 5g9e}+
   4 ,cambridge ,univ}s;y ,press4
   ,,isbn #igh-#j-#eba-#hfaec-#c4
@@ -796,9 +1022,9 @@ decomposi;n t
   ,,isbn #igh"j"#eba"edhbc"#f4
 ,motwani1 ,rajeev2 ,ra<avan1 ,prabhak>
   "<#aiie">4  ,r&omiz$ ,algori?ms 4
-  ,cambridge ,univ}s;y ,press4 ;p4 #bhj4
-  ,,isbn #ighjebadgdfeh4             #cb
-,williams1 ,virg9ia ,vassilevska4
+  ,cambridge ,univ}s;y ,press4       #ci
+  ;p4 #bhj4 ,,isbn #ighjebadgdfeh4
+,williams1 ,virg9ia ,vassilevska4
   8,multiply+ matrices fa/} ?an
   ,copp}smi?-,w9ograd0 "<,,pdf">4
 ,le ,gall1 ,fran~&cois "<#bjad">1 8,p{}s
@@ -814,7 +1040,16 @@ decomposi;n t
   #acef,-#acfi4
   doi3#aj4aacg_/s#jjigecigjbdjbadg4
   ,,issn #jjig-#ecig4
-   ,ref};es
+
+
+
+
+
+
+
+                                     #dj
+                 ,ref};es
+
 2  ,wikim$ia ,commons has m$ia relat$ to
      matrix multiplica;n   42  4
 2  ,! ,wikibook  ,l9e> ,algebra  has a
@@ -822,8 +1057,8 @@ decomposi;n t
   multiplica;n   2  4
 2  ,! ,wikibook  ,applicable ,ma!matics
   has a page on ! topic (3   ,multiply+
-  ,matrices   2  4                   #cc
-4mw-p>s}-|tput
+  ,matrices   2  4
+4mw-p>s}-|tput
 4refbeg9_<font-size3#ij.02margin-bottom-
 3#j4e;em_>4mw-p>s}-|tput
 4refbeg9-hang+-9d5ts`>ul_<li/-/yle-type-
@@ -837,19 +1072,20 @@ b;em2list-/yle;3n"o_>4mw-p>s}-|tput
 ,h5ry ,cohn1 ,rob}t ,kle9b}g1 ,bal~/azs
   ,szeg$y1 & ,*ris ,umans4 ,gr|p-!oretic
   ,algori?ms = ,matrix ,multiplica;n4
-  >,xiv;3ma?4,,gr_/#jeaadfj4 ,proce$+s (
-  ! #dfth ,annual ,symposium on ,f.da;ns
-  ( ,comput} ,sci;e1 #bc,-#be ,octob}
-  #bjje1 ,pittsbur<1 ,,pa1 ,,ieee
-  ,comput} ,society1 pp4 #cgi,-#chh4
+  >,xiv;3ma?4,,gr_/#jeaadfj4         #da
+  ,proce$+s ( ! #dfth ,annual ,symposium
+  on ,f.da;ns ( ,comput} ,sci;e1
+  #bc,-#be ,octob} #bjje1 ,pittsbur<1
+  ,,pa1 ,,ieee ,comput} ,society1
+  pp4 #cgi,-#chh4
 ,h5ry ,cohn1 ,*ris ,umans4 ,a
   ,gr|p-!oretic ,approa* to ,fa/ ,matrix
   ,multiplica;n4
   >,xiv;3ma?4,,gr_/#jcjgcba4 ,proce$+s (
   ! #ddth ,annual ,,ieee ,symposium on
-  ,f.da;ns ( ,comput} ,sci;e1        #cd
-  #aa,-#ad ,octob} #bjjc1 ,cambridge1
-  ,,ma1 ,,ieee ,comput} ,society1
+  ,f.da;ns ( ,comput} ,sci;e1 #aa,-#ad
+  ,octob} #bjjc1 ,cambridge1 ,,ma1
+  ,,ieee ,comput} ,society1
   pp4 #dch,-#ddi4
 ,copp}smi?1 ;,d42 ,w9ograd1 ;,s4
   "<#aiij">4 8,matrix multiplica;n via
@@ -861,8 +1097,8 @@ b;em2list-/yle;3n"o_>4mw-p>s}-|tput
   "<#aiia">1 ,topics 9 ,matrix
   ,analysis1 ,cambridge ,univ}s;y
   ,press1 ,,isbn #igh-#j-#eba-#dfgac-#a
-,knu?1 ,d4,e41  ,! ,>t ( ,comput}
-  ,programm+ ,volume #b3 ,sem9um}ical
+,knu?1 ,d4,e41  ,! ,>t ( ,comput}    #db
+  ,programm+ ,volume #b3 ,sem9um}ical
   ,algori?ms4 ,addison-,wesley
   ,pr(es.nal2 #c $i;n "<,novemb} #ad1
   #aiig">4
@@ -872,9 +1108,9 @@ b;em2list-/yle;3n"o_>4mw-p>s}-|tput
   ;,p42 ,teukolsky1 ,saul ,a42 ,vett}l+1
   ,william ;,t4 "<#bjjg">1  ,num}ical
   ,recipes3 ,! ,>t ( ,sci5tific ,comput+
-   "<#crd $4">1 ,cambridge           #ce
-  ,univ}s;y ,press1
-  ,,isbn #igh-#j-#eba-#hhjfh-#h    4
+   "<#crd $4">1 ,cambridge ,univ}s;y
+  ,press1 ,,isbn #igh-#j-#eba-#hhjfh-#h
+    4
 ,ran ,raz4 ,on ! complex;y ( matrix
   product4 ,9 ,proce$+s ( ! ?irty-f|r?
   annual ,,acm symposium on ,!ory (
@@ -886,8 +1122,8 @@ b;em2list-/yle;3n"o_>4mw-p>s}-|tput
   #bjje4 ,,pdf
 ,/rass51 ,volk}1 ,gaussian ,elim9a;n is
   n ,optimal1 ,num}4 ,ma?4 #ac1
-  ;p4 #ced-#cef1 #aifi4
-,/yan1 ,george ;,p4 ;,h4 "<#aigc">1
+  ;p4 #ced-#cef1 #aifi4              #dc
+,/yan1 ,george ;,p4 ;,h4 "<#aigc">1
   8,_ham>d ,products & ,multiv>iate
   ,/ati/ical ,analysis0 "<,,pdf">1 ,l9e>
   ,algebra & xs ,applica;ns1 ~2#f3
@@ -897,8 +1133,8 @@ b;em2list-/yle;3n"o_>4mw-p>s}-|tput
 ,williams1 ,virg9ia ,vassilevska
   "<#bjab-#je-#ai">4 8,multiply+
   matrices fa/} ?an copp}smi?-w9ograd04
-  ,proce$+s ( ! #ddth symposium on   #cf
-  ,!ory ( ,comput+ - ,,,/oc '#ab4 acm4,'
+  ,proce$+s ( ! #ddth symposium on ,!ory
+  ( ,comput+ - ,,,/oc '#ab4 acm4,'
   pp4 #hhg,-#hih4 ,cite,se},x
   #aj4a4a4big4bfhj 4
   doi3#aj4aade_/#bbacigg4bbadjef4
@@ -911,8 +1147,8 @@ b;em2list-/yle;3n"o_>4mw-p>s}-|tput
 ,ab/ract algebra
 ,category !ory
 ,ele;t>y algebra
-;,k-!ory
-,commutative algebra
+;,k-!ory                             #dd
+,commutative algebra
 ,noncommutative algebra
 ,ord} !ory
 ,univ}sal algebra
@@ -922,8 +1158,8 @@ b;em2list-/yle;3n"o_>4mw-p>s}-|tput
 ,r+ "<!ory">
 ,module "<!ory">
 ,field
-,polynomial r+ "<,polynomial">       #cg
-,composi;n algebra
+,polynomial r+ "<,polynomial">
+,composi;n algebra
   2  4
 ,l9e> algebra
 ,matrix "<!ory">
@@ -936,8 +1172,8 @@ b;em2list-/yle;3n"o_>4mw-p>s}-|tput
 ,t5sor algebra
 ,ext}ior algebra
 ,symmetric algebra
-,geometric algebra "<,multivector">
-  2  4
+,geometric algebra "<,multivector">  #de
+  2  4
 ,topic li/s
 ,ab/ract algebra
 ,algebraic /ructures
@@ -947,8 +1183,8 @@ b;em2list-/yle;3n"o_>4mw-p>s}-|tput
 ,gloss>ies
 ,l9e> algebra
 ,field !ory
-,r+ !ory                             #ch
-,ord} !ory
+,r+ !ory
+,ord} !ory
   2  4
 ,relat$
 ,ma!matics
@@ -961,8 +1197,8 @@ b;em2list-/yle;3n"o_>4mw-p>s}-|tput
 ,l9e>
 ,ab/ract
 ,wikiv}s;y
-,l9e>
-,ab/ract
+,l9e>                                #df
+,ab/ract
 2  4
          ,retriev$ f
 8https3_/_/54wikip$ia4org_/w_/9dex4php;-
@@ -972,5 +1208,19 @@ ififfgach,7
 
 
 
-                                     #ci
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     #dg
 
