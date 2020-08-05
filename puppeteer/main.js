@@ -12,7 +12,7 @@ sre.engineReady();
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto('https://en.wikipedia.org/wiki/Matrix_multiplication', {
+  await page.goto('https://en.wikipedia.org/w/index.php?title=Matrix_multiplication&printable=yes', {
     waitUntil: 'domcontentloaded',
   });
   const result = await page.evaluate(() => {
@@ -39,6 +39,6 @@ sre.engineReady();
   const dom = new JSDOM(`<!DOCTYPE html>${result}`);
   const document = dom.window.document;
   document.querySelectorAll('.mwe-math-element').forEach(node => node.innerHTML = sre.toSpeech(node.innerHTML));
-  console.log(document.documentElement.innerHTML);
+  console.log(`<!DOCTYPE html>${document.documentElement.innerHTML}`);
 })();
 
