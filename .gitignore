@@ -1,3 +1,7 @@
+appended_html.sem
+file2brl.temp
+*.out.round
+
 # Logs
 logs
 *.log
