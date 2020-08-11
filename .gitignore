@@ -1,6 +1,7 @@
 appended_html.sem
-file2brl.temp
+file2brl*.temp
 *.out.round
+lbx_body.temp
 
 # Logs
 logs

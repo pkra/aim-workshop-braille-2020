@@ -7,6 +7,6 @@ for filename in $(ls *.in.html); do
   base="${input%.*}"
   brf="${base}.out.brf"
   roundtrip="${base}.out.round"
-  file2brl --html "${filename}" > "${brf}"
+  file2brl --html --config-file "html.cfg" "${filename}" > "${brf}"
   file2brl --backward "${brf}" > "${roundtrip}"
 done
