@@ -133,7 +133,7 @@ italicx i,class,one-letter
 # and then converts to plain (x20) spaces.
 # TODO add example; subject to change
 
-generic mjx-container \x2838\x2829\x00a0,\x00a0\x2838\x2831
+generic mjx \x2838\x2829\x00a0,\x00a0\x2838\x2831
 
 
 ########
