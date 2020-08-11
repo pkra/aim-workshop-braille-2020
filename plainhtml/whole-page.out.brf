@@ -11,13 +11,13 @@
 ,li/s ''''''''''''''''''''''''''''''' #i
 ,horizontal rules '''''''''''''''''' #aj
 ,tabul> data ''''''''''''''''''''''' #aa
-,code '''''''''''''''''''''''''''''' #ac
-  ,pre-=matt$ text ''''''''''''''''' #ad
-,9l9e ele;ts ''''''''''''''''''''''' #ae
-,,html ,com;ts ''''''''''''''''''''' #ag
-,emb$d$ 3t5t ''''''''''''''''''''''' #ah
-  ,images '''''''''''''''''''''''''' #ai
-  ,9l9e ,,svg '''''''''''''''''''''' #bj
+,code '''''''''''''''''''''''''''''' #ab
+  ,pre-=matt$ text ''''''''''''''''' #ac
+,9l9e ele;ts ''''''''''''''''''''''' #ad
+,,html ,com;ts ''''''''''''''''''''' #af
+,emb$d$ 3t5t ''''''''''''''''''''''' #ag
+  ,images '''''''''''''''''''''''''' #ah
+  ,9l9e ,,svg '''''''''''''''''''''' #ai
 
 
 
@@ -150,12 +150,12 @@ build+ libl|is 3figura;ns4
                                       #e
                  ,h1d+ #b
 
-               ,h1d+ #c
+,h1d+ #c
 
     ,h1d+ #d
 
     ,h1d+ #e
-               ,h1d+ #f
+,h1d+ #f
 
 
 
@@ -210,7 +210,7 @@ z a p>agraph1 or block ( text4
 9d5ta;n & a di6}5t typeface or small}
 size quota;n4 ,x may or may n 9clude a
 cita;n1 usually plac$ at ! bottom4
-                  ,sd no "o1 "e4
+,sd no "o1 "e4
 
 
 
@@ -227,15 +227,15 @@ cita;n1 usually plac$ at ! bottom4
 
 
 
-                ,def9i;n li/
+,def9i;n li/
   ,def9i;n ,li/ ,title
   ,? is a def9i;n li/ divi.n4
-               ,ord}$ ,li/
-,li/ ,item #a                 ,li/ ,item
-#b                 ,li/ ,item #c
-      ,unord}$ ,li/               ,li/
-,item #a                 ,li/ ,item #b
-              ,li/ ,item #c
+,ord}$ ,li/ ,li/ ,item #a ,li/ ,item #b
+,li/ ,item #c ,unord}$ ,li/ ,li/ ,item
+#a ,li/ ,item #b ,li/ ,item #c
+
+
+
 
 
 
@@ -277,33 +277,19 @@ cita;n1 usually plac$ at ! bottom4
 
 
 
- ,table ,cap;n               ,table
-,h1d+ #a                   ,table ,h1d+
-#b                   ,table ,h1d+ #c
-              ,table ,h1d+ #d
-       ,table ,h1d+ #e
-,table ,foot} #a
-,table ,foot} #b
-,table ,foot} #c
-,table ,foot} #d
-,table ,foot} #e                 ,table
-,cell #a                   ,table ,cell
-#b                   ,table ,cell #c
-              ,table ,cell #d
-       ,table ,cell #e
-,table ,cell #a                   ,table
-,cell #b                   ,table ,cell
-#c                   ,table ,cell #d
-              ,table ,cell #e
-     ,table ,cell #a
-,table ,cell #b                   ,table
-,cell #c                   ,table    #aa
-,cell #d                   ,table ,cell
-#e                 ,table ,cell #a
-            ,table ,cell #b
-     ,table ,cell #c
-,table ,cell #d                   ,table
-,cell #e
+,table ,cap;n ,table ,h1d+ #a ,table
+,h1d+ #b ,table ,h1d+ #c ,table ,h1d+ #d
+,table ,h1d+ #e ,table ,foot} #a ,table
+,foot} #b ,table ,foot} #c ,table ,foot}
+#d ,table ,foot} #e ,table ,cell #a
+,table ,cell #b ,table ,cell #c ,table
+,cell #d ,table ,cell #e ,table ,cell #a
+,table ,cell #b ,table ,cell #c ,table
+,cell #d ,table ,cell #e ,table ,cell #a
+,table ,cell #b ,table ,cell #c ,table
+,cell #d ,table ,cell #e ,table ,cell #a
+,table ,cell #b ,table ,cell #c ,table
+,cell #d ,table ,cell #e
 
 
 
@@ -311,24 +297,13 @@ cita;n1 usually plac$ at ! bottom4
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-                                     #ab
+                                     #aa
                   ,code
 
 
 
   .1,keybo>d .19put3 ,cmd
-  .1,9l9e .1code3 `<div`>code`<_/div`>
+  .1,9l9e .1code3.'`<div`>code`<_/div`>
   .1,sample .1|tput3 ,? is sample |tput
 f a comput} program4
 
@@ -347,7 +322,7 @@ f a comput} program4
 
 
 
-                                     #ac
+                                     #ab
              ,pre-=matt$ text
 
   P R E F O R M A T T E D T E X T
@@ -378,7 +353,7 @@ o
 
 
 
-                                     #ad
+                                     #ac
                ,9l9e ele;ts
 
 
@@ -403,7 +378,7 @@ etc4
   ,a2revia;n3 ,,html
   ,? text is a %ort 9l9e quota;n4
   ,? is a cita;n4
-  ,! dfn ele;t 9dicates a def9i;n4   #ae
+  ,! dfn ele;t 9dicates a def9i;n4   #ad
   ,! m>k ele;t 9dicates a hi<li<t4
   ,! v>iable ele;t1 s* z ;x "7 ;y4
   ,! "t ele;t3 #b weeks ago
@@ -428,7 +403,7 @@ etc4
 
 
 
-                                     #af
+                                     #ae
               ,,html ,com;ts
 
 
@@ -453,7 +428,7 @@ l9es 2l "h4
 
 
 
-                                     #ag
+                                     #af
                ,emb$d$ 3t5t
 
 
@@ -478,15 +453,14 @@ l9es 2l "h4
 
 
 
-                                     #ah
+                                     #ag
                  ,images
 
-                ,no `<figure`> ele;t
-               ,wrapp$ 9 a `<figure`>
-ele;t1 no `<figcap;n`>
-,wrapp$ 9 a `<figure`> ele;t1 ) a
-`<figcap;n`>                ,"h is a
-cap;n = ? image4
+,no `<figure`> ele;t
+,wrapp$ 9 a `<figure`> ele;t1 no
+`<figcap;n`> ,wrapp$ 9 a `<figure`>
+ele;t1 ) a `<figcap;n`> ,"h is a cap;n =
+? image4
 
 
 
@@ -503,7 +477,8 @@ cap;n = ? image4
 
 
 
-                                     #ai
+
+                                     #ah
                ,9l9e ,,svg
 
   ,adapt$ f html#e-te/-page1 made by
@@ -528,5 +503,5 @@ cap;n = ? image4
 
 
 
-                                     #bj
+                                     #ai
 
