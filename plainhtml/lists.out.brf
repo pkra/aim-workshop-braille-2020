@@ -1,9 +1,11 @@
   ,:at foll{s is an ord}$ li/
-item#a item#b is a v l;g item & %d wrap
->.d 2c x is s l;g item#c
+         item#a             item#b is a
+v l;g item & %d wrap >.d 2c x is s l;g
+          item#c
   ,:at foll{s is an unord}$ li/
-item#a item#b is a v l;g item & %d wrap
->.d 2c x is s l;g item#c
+         item#a             item#b is a
+v l;g item & %d wrap >.d 2c x is s l;g
+          item#c
   ,:at foll{s is a def9i;n li/
   t}m#a
   def9i;n ( ! f/ t}m
@@ -12,8 +14,6 @@ item#a item#b is a v l;g item & %d wrap
 l;g & %d wrap >.d
   t}m#c
   def9i;n ( ! ?ird t}m
-
-
 
 
 
