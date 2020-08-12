@@ -1,26 +1,26 @@
   ,:at foll{s is an ord}$ li/
-         item#a             item#b is a
-v l;g item & %d wrap >.d 2c x is s l;g
-          item#c
+
+item#a
+item#b is a v l;g item & %d wrap >.d 2c
+  x is s l;g
+item#c
+
   ,:at foll{s is an unord}$ li/
-         item#a             item#b is a
-v l;g item & %d wrap >.d 2c x is s l;g
-          item#c
+
+item#a
+item#b is a v l;g item & %d wrap >.d 2c
+  x is s l;g
+item#c
+
   ,:at foll{s is a def9i;n li/
-  t}m#a
-  def9i;n ( ! f/ t}m
-  t}m#b
-  def9i;n ( ! second t}m4 ,? "o is r1lly
-l;g & %d wrap >.d
-  t}m#c
-  def9i;n ( ! ?ird t}m
 
-
-
-
-
-
-
+t}m#a
+def9i;n ( ! f/ t}m
+t}m#b
+def9i;n ( ! second t}m4 ,? "o is r1lly
+  l;g & %d wrap >.d
+t}m#c
+def9i;n ( ! ?ird t}m
 
                                       #a
 

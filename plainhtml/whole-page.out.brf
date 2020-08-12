@@ -1,36 +1,31 @@
 ,,html#e ,te/ ,page ''''''''''''''''' #a
-,,html#e ,te/ ,page ''''''''''''''''' #b
-,text ''''''''''''''''''''''''''''''' #c
-,h1d+s '''''''''''''''''''''''''''''' #d
-,h1d+ #a '''''''''''''''''''''''''''' #e
-  ,h1d+ #b '''''''''''''''''''''''''' #f
-      ,h1d+ #d '''''''''''''''''''''' #f
-      ,h1d+ #e '''''''''''''''''''''' #f
-,p>agraphs '''''''''''''''''''''''''' #g
-,blockquotes '''''''''''''''''''''''' #h
-,li/s ''''''''''''''''''''''''''''''' #i
-,horizontal rules '''''''''''''''''' #aj
-,tabul> data ''''''''''''''''''''''' #aa
-,code '''''''''''''''''''''''''''''' #ac
-  ,pre-=matt$ text ''''''''''''''''' #ad
-,9l9e ele;ts ''''''''''''''''''''''' #ae
-,,html ,com;ts ''''''''''''''''''''' #ag
-,emb$d$ 3t5t ''''''''''''''''''''''' #ah
-  ,images '''''''''''''''''''''''''' #ai
-  ,9l9e ,,svg '''''''''''''''''''''' #bj
-
-
-
-
-                                      #a
-           ,,html#e ,te/ ,page
-
-
-
-
-
-
-
+,text ''''''''''''''''''''''''''''''' #b
+,h1d+s '''''''''''''''''''''''''''''' #c
+,h1d+ #a '''''''''''''''''''''''''''' #d
+  ,h1d+ #b '''''''''''''''''''''''''' #e
+    ,h1d+ #c '''''''''''''''''''''''' #e
+      ,h1d+ #d '''''''''''''''''''''' #e
+        ,h1d+ #e '''''''''''''''''''' #e
+,p>agraphs '''''''''''''''''''''''''' #f
+,blockquotes '''''''''''''''''''''''' #g
+,li/s ''''''''''''''''''''''''''''''' #h
+    ,def9i;n li/ '''''''''''''''''''' #h
+    ,ord}$ ,li/ ''''''''''''''''''''' #h
+    ,unord}$ ,li/ ''''''''''''''''''' #h
+,horizontal rules ''''''''''''''''''' #i
+,tabul> data ''''''''''''''''''''''' #aj
+,code '''''''''''''''''''''''''''''' #ab
+  ,pre-=matt$ text ''''''''''''''''' #ac
+,9l9e ele;ts ''''''''''''''''''''''' #ad
+,,html ,com;ts ''''''''''''''''''''' #af
+,emb$d$ 3t5t ''''''''''''''''''''''' #ag
+  ,images '''''''''''''''''''''''''' #ah
+    ,no `<figure`> ele;t ''''''''''' #ah
+    ,wrapp$ 9 a `<figure`> ele;t1
+      no `<figcap;n`> '''''''''' #ah  #a
+    ,wrapp$ 9 a `<figure`> ele;t1
+      ) a `<figcap;n`> ''''''''''''' #ah
+  ,9l9e ,,svg '''''''''''''''''''''' #ai
 
 
 
@@ -47,7 +42,12 @@
 
 
 
-                                      #a
+
+
+
+
+
+                                      #b
            ,,html#e ,te/ ,page
 
 
@@ -72,7 +72,7 @@ build+ libl|is 3figura;ns4
 
 
 
-                                      #b
+                                      #a
                   ,text
 
 
@@ -97,7 +97,7 @@ build+ libl|is 3figura;ns4
 
 
 
-                                      #c
+                                      #b
                   ,h1d+s
 
 
@@ -122,7 +122,7 @@ build+ libl|is 3figura;ns4
 
 
 
-                                      #d
+                                      #c
                  ,h1d+ #a
 
 
@@ -147,14 +147,14 @@ build+ libl|is 3figura;ns4
 
 
 
-                                      #e
+                                      #d
                  ,h1d+ #b
 
-               ,h1d+ #c
+                 ,h1d+ #c
 
     ,h1d+ #d
 
-    ,h1d+ #e
+      ,h1d+ #e
                ,h1d+ #f
 
 
@@ -172,7 +172,7 @@ build+ libl|is 3figura;ns4
 
 
 
-                                      #f
+                                      #e
                 ,p>agraphs
 
 
@@ -197,11 +197,13 @@ to organize l;g} prose4
 
 
 
-                                      #g
+                                      #f
                ,blockquotes
 
 
 
+
+6666666666666666666666666666666666666666
   ,a block quota;n "<al "kn z a l;g
 quota;n or extract"> is a quota;n 9 a
 writt5 docu;t1 t is set (f f ! ma9 text
@@ -210,7 +212,9 @@ z a p>agraph1 or block ( text4
 9d5ta;n & a di6}5t typeface or small}
 size quota;n4 ,x may or may n 9clude a
 cita;n1 usually plac$ at ! bottom4
-                  ,sd no "o1 "e4
+,sd no "o1 "e4
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 
 
 
@@ -218,36 +222,34 @@ cita;n1 usually plac$ at ! bottom4
 
 
 
+
+
+                                      #g
+                  ,li/s
+
+
+
+               ,def9i;n li/
+
+,def9i;n ,li/ ,title
+,? is a def9i;n li/ divi.n4
+
+               ,ord}$ ,li/
+
+,li/ ,item #a
+,li/ ,item #b
+,li/ ,item #c
+
+              ,unord}$ ,li/
+
+,li/ ,item #a
+,li/ ,item #b
+,li/ ,item #c
 
 
 
 
                                       #h
-                  ,li/s
-
-
-
-                ,def9i;n li/
-  ,def9i;n ,li/ ,title
-  ,? is a def9i;n li/ divi.n4
-               ,ord}$ ,li/
-,li/ ,item #a                 ,li/ ,item
-#b                 ,li/ ,item #c
-      ,unord}$ ,li/               ,li/
-,item #a                 ,li/ ,item #b
-              ,li/ ,item #c
-
-
-
-
-
-
-
-
-
-
-
-                                      #i
             ,horizontal rules
 
 
@@ -272,38 +274,43 @@ cita;n1 usually plac$ at ! bottom4
 
 
 
-                                     #aj
+                                      #i
                ,tabul> data
 
 
 
- ,table ,cap;n               ,table
-,h1d+ #a                   ,table ,h1d+
-#b                   ,table ,h1d+ #c
-              ,table ,h1d+ #d
-       ,table ,h1d+ #e
+ ,table ,cap;n
+,table ,h1d+ #a                   ,table
+  ,h1d+ #b                   ,table
+  ,h1d+ #c                   ,table
+  ,h1d+ #d                   ,table
+  ,h1d+ #e                 4
 ,table ,foot} #a
-,table ,foot} #b
-,table ,foot} #c
-,table ,foot} #d
-,table ,foot} #e                 ,table
-,cell #a                   ,table ,cell
-#b                   ,table ,cell #c
-              ,table ,cell #d
-       ,table ,cell #e
-,table ,cell #a                   ,table
-,cell #b                   ,table ,cell
-#c                   ,table ,cell #d
-              ,table ,cell #e
-     ,table ,cell #a
-,table ,cell #b                   ,table
-,cell #c                   ,table    #aa
-,cell #d                   ,table ,cell
-#e                 ,table ,cell #a
-            ,table ,cell #b
-     ,table ,cell #c
-,table ,cell #d                   ,table
-,cell #e
+  ,table ,foot} #b
+  ,table ,foot} #c
+  ,table ,foot} #d
+  ,table ,foot} #e                 4
+,table ,cell #a2
+  ,table ,cell #b2
+  ,table ,cell #c2
+  ,table ,cell #d2
+  ,table ,cell #e2                  4
+,table ,cell #a2
+  ,table ,cell #b2
+  ,table ,cell #c2
+  ,table ,cell #d2
+  ,table ,cell #e2                   #aj
+  4
+,table ,cell #a2
+  ,table ,cell #b2
+  ,table ,cell #c2
+  ,table ,cell #d2
+  ,table ,cell #e2                  4
+,table ,cell #a2
+  ,table ,cell #b2
+  ,table ,cell #c2
+  ,table ,cell #d2
+  ,table ,cell #e2                  4
 
 
 
@@ -317,19 +324,14 @@ cita;n1 usually plac$ at ! bottom4
 
 
 
-
-
-
-
-
-                                     #ab
+                                     #aa
                   ,code
 
 
 
-  .1,keybo>d .19put3 ,cmd
-  .1,9l9e .1code3 `<div`>code`<_/div`>
-  .1,sample .1|tput3 ,? is sample |tput
+  ~1,keybo>d ~19put3 ,cmd
+  ~1,9l9e ~1code3 `<div`>code`<_/div`>
+  ~1,sample ~1|tput3 ,? is sample |tput
 f a comput} program4
 
 
@@ -347,21 +349,22 @@ f a comput} program4
 
 
 
-                                     #ac
+                                     #ab
              ,pre-=matt$ text
 
-  P R E F O R M A T T E D T E X T
-  ! "
-# $ % & ' ( ) * + , - . /
-  0 1 2 3 4 5
-6 7 8 9 : ; < = > ?
-  @ A B C D E F G H
-I J K L M N O
-  P Q R S T U V W X Y Z [
-\ ] ^ _
-  ` a b c d e f g h i j k l m n
-o
-  p q r s t u v w x y z { | } ~
+
+6666666666666666666666666666666666666666
+;,,,p ;r ;e ;f o ;r ;m a ;t ;t ;e ;d ;t
+;e ;x ;t   6 0 _? `s .0 `& ' "< "> "9 "6
+1 - 4 _/   #j"a"#b"c"#d"e"#f"g"#h"i 3 2
+`< "7 `> ;8   `a a ;b ;c ;d ;e ;f ;g ;h
+i ;j ;k ;l ;m ;n o   ;p ;q ;r ;s ;t ;u
+;v ;w ;x ;y ;z,' .< _* .> `5 .-   .* a
+;b ;c ;d ;e ;f ;g ;h i ;j ;k ;l ;m ;n o
+ ;p ;q ;r ;s ;t ;u ;v ;w ;x ;y ;z _< _|
+_> `9
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 
 
 
@@ -373,23 +376,19 @@ o
 
 
 
-
-
-
-
-
-                                     #ad
+                                     #ac
                ,9l9e ele;ts
 
 
 
   ,? is a text l9k4
-  .7,/r;g is us$ to 9dicate /r;g
-import.e4.'
+  ~7,/r;g is us$ to 9dicate /r;g
+import.e4~'
   .7,? text has add$ emphasis4.'
-  ,! ;b ele;t is /yli/ically di6}5t text
-f normal text1 )|t any special import.e4
-  ,! i ele;t is text t is (fset f !
+  ,! ~2;b ~1ele;t is /yli/ically di6}5t
+text f normal text1 )|t any special
+import.e4
+  ,! .2i .1ele;t is text t is (fset f !
 normal text4
   ,! ;u ele;t is text ) an un>ticulat$1
 ?|< explicitly r5d}$1 non-textual
@@ -402,9 +401,9 @@ annota;n4
 etc4
   ,a2revia;n3 ,,html
   ,? text is a %ort 9l9e quota;n4
-  ,? is a cita;n4
-  ,! dfn ele;t 9dicates a def9i;n4   #ae
-  ,! m>k ele;t 9dicates a hi<li<t4
+  ,? is a cita;n4                    #ad
+  ,! ~1dfn ~1ele;t 9dicates a def9i;n4
+  ,! m>k ele;t 9dicates a hi<li<t4
   ,! v>iable ele;t1 s* z ;x "7 ;y4
   ,! "t ele;t3 #b weeks ago
 
@@ -427,8 +426,7 @@ etc4
 
 
 
-
-                                     #af
+                                     #ae
               ,,html ,com;ts
 
 
@@ -453,7 +451,7 @@ l9es 2l "h4
 
 
 
-                                     #ag
+                                     #af
                ,emb$d$ 3t5t
 
 
@@ -478,15 +476,27 @@ l9es 2l "h4
 
 
 
-                                     #ah
+                                     #ag
                  ,images
 
-                ,no `<figure`> ele;t
-               ,wrapp$ 9 a `<figure`>
-ele;t1 no `<figcap;n`>
-,wrapp$ 9 a `<figure`> ele;t1 ) a
-`<figcap;n`>                ,"h is a
-cap;n = ? image4
+           ,no `<figure`> ele;t
+
+     ,wrapp$ 9 a `<figure`> ele;t1 no
+              `<figcap;n`>
+
+
+6666666666666666666666666666666666666666
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+    ,wrapp$ 9 a `<figure`> ele;t1 ) a
+              `<figcap;n`>
+
+
+6666666666666666666666666666666666666666
+,"h is a cap;n = ? image4
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 
 
 
@@ -495,15 +505,7 @@ cap;n = ? image4
 
 
 
-
-
-
-
-
-
-
-
-                                     #ai
+                                     #ah
                ,9l9e ,,svg
 
   ,adapt$ f html#e-te/-page1 made by
@@ -528,5 +530,5 @@ cap;n = ? image4
 
 
 
-                                     #bj
+                                     #ai
 
