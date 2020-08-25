@@ -1,15 +1,25 @@
-# liblouis semantic file for default HTML
-# Style is set in the configuration file, while the HTML which
-# will receive this treatment is given here
+# From https://github.com/rbeezer/mathbook/blob/dev/script/braille/
+
+# liblouis semantic file for PreTeXt-generated HTML
 #
 # History:
-#   2020-08-08: Initiated, modified from PreTeXt's sem file
+#   2019-02-17: Initiated
+#   2019-05-30: No longer extends stock "html.sem"
 
 # [LUPM] Liblouisutdml User's and Programmer's Manual
 
 # [BANA-2016]
 # "Braille Formats: Principles of Print-to-Braille Transcription," 2016,
 # Braille Authority of North America (BANA)
+
+###########################################
+# Braille versions of math from MathJax/SRE
+###########################################
+
+# mathjax puts braille Unicode characters into the 
+# "title" element of an SVG, PreTeXt does not otherwise 
+# use a "title" element.  The Unicode characters become 
+# their ASCII Braille equivalents (it seems)
 
 ####################
 # Document structure
@@ -33,24 +43,30 @@ document body
 # "subsequent", paragraphs as a continuation.  So for
 # Braille we do not indent these.
 para p
-# paracont p,class,continuation
+paracont p,data-braille,continuation
 
 ###################
 # Division Headings
 ###################
 
-# PKRA: does that make sense in general?
+# PTX uses <br/> for lines of structures like address
+# blocks of multi-line quote attributions
 softreturn br
 
 # Headings have styles, "headingX", which are given
 # in the  pretext-liblouis.cfg  configuration file
 # LUPM, 3.4.10, 2019-05-08, suggest 10 levels
 # We associate styles with CSS values
-heading1 h1
-heading2 h2
-heading3 h3
-heading4 h4
-heading5 h5
+heading1 div,class,fullpage
+heading2 div,class,centerpage
+heading3 div,class,center
+heading4 div,class,cell5
+heading5 div,class,cell7
+
+# "paragraphs" are an anomalous PTX invention.
+# Always terminal, can be anywhere.  We fashion
+# them with "box lines", identical to blocks
+boxline article,class,paragraphs
 
 ###################
 # Table of Contents
@@ -59,7 +75,7 @@ heading5 h5
 # The element given here will begin on a new page and
 # its content will be the first line of the table of contents
 
-contentsheader div,class,tableofcontents
+contentsheader div,data-braille,tableofcontents
 
 
 ####################
@@ -69,13 +85,23 @@ contentsheader div,class,tableofcontents
 # We sometimes bold a heading (such
 # as for a description list) and so
 # produce a "b" element
-
 boldx b
-boldx strong
-boldx dfn
 
-italicx em
-italicx i
+# PTX em => HTML em.emphasis
+italicx em,class,emphasis
+
+# PTX pubtitle => HTML span.booktitle
+italicx span,class,booktitle
+
+# PTX foreign => HTML i.foreign
+italicx i,class,foreign
+
+# PTX term => HTML dfn.terminology
+boldx dfn,class,terminology
+
+# Cannot seem to blend bold + italic
+# PTX alert => HTML em.alert
+boldx em,class,alert
 
 # Single-letter, Latin mathematics, such
 # as a variable "x" is not marked up with
@@ -83,7 +109,6 @@ italicx i
 # HTML italics element ("i") with class
 # .one-letter, and so is converted to
 # Braille italics
-# TODO clarify
 italicx i,class,one-letter
 
 ########################
@@ -126,27 +151,39 @@ italicx i,class,one-letter
 # always preceded by a space
 # technically a Nemeth symbol
 
-# We use a "mjx-container" tag as we produce Braille
+# We write a "nemeth" tag as we produce Braille
 # with the Speech Rule Engine.  We wrap it with
 # the right indicators.  The spaces here are
 # "non-breaking", which  liblouis  respects,
 # and then converts to plain (x20) spaces.
-# TODO add example; subject to change
 
-generic mjx-container \x2838\x2829\x00a0,\x00a0\x2838\x2831
+generic nemeth \x2838\x2829\x00a0,\x00a0\x2838\x2831
+
 
 ########
 # Blocks
 ########
 
-# this will make liblouis insert runs of identical characters
+# liblouis will insert runs of identical characters
 # across the width of the text, just prior, and just
-# after, to create a "box".
+# after, to create a "box".  Style is set in the
+# configuration file, while the PreTeXt HTML which
+# will receive this treatment is given here
 
-boxline aside
-boxline figure
-boxline blockquote
-boxline pre
+boxline article,data-braille,remark-like
+boxline article,data-braille,computation-like
+boxline article,data-braille,definition-like
+boxline aside,data-braille,aside-like
+boxline figure,data-braille,figure-like
+boxline article,data-braille,assemblage-like
+boxline article,data-braille,goal-like
+boxline article,data-braille,example-like
+boxline article,data-braille,project-like
+boxline article,data-braille,theorem-like
+boxline article,data-braille,proof
+
+# We box "sage" since the visual formatting is absent
+boxline article,data-braille,sage
 
 #######
 # Lists
@@ -158,13 +195,13 @@ boxline pre
 # we give thos a style based on a class value, the others
 # just get dropped as pure containers.  There is only one
 # kind of list item.
-outerlist ol
-outerlist ul
-outerlist dl
-#TODO PKRA: how can we precede them with a marker?
-listitem li •
-listitem dd
-listitem dt
+outerlist ol,class,outerlist
+outerlist ul,class,outerlist
+outerlist dl,class,outerlist
+no ol
+no ul
+no dl
+listitem li
 
 
 ########
@@ -174,11 +211,59 @@ listitem dt
 # Table entries end with a semi-colon,
 # and a space to separate.
 # Table rows ends with a period.
-# TODO PKRA: what/how do these work?
 
 tablerow tr \*.
 generic td \*;\s
+generic td,data-braille,last-cell \*
 
+#############
+# Mathematics
+#############
+
+# This will kill an empty div that formerly held all
+# the LaTeX macros.  It gets emptied by MathJax, but
+# it leaves behind the LaTeX math delimiters, which
+# become an empty "nemeth" element.  This produces a
+# single opening Nemeth indicator (because it is an
+# empty element?).
+
+# "no" processes interior, "skip" ignores everything
+
+skip div,data-braille,latex-macros
+
+displaymath div,class,displaymath
+
+##########
+# Verbatim
+##########
+
+# Same class name as stock PreTeXt HTML
+
+preformatted pre,class,code-block
+
+############
+# Sage Cells
+############
+
+# Setting a "changetable" action is the closest we
+# can get to Computer Braille.  This requires
+# hard-coding the table filename in the
+# div/@sage-code attribute value.  This is partially
+# effective, but kills newlines, which we have
+# not been able to fix
+
+changetable div,sage-code
+
+# The  compbrl  action was not successful
+# (perhaps because the table was not set properly elsewhere)
+
+# We set a "sagecode" style on div/@sage-code,
+# which was effective, but using in the style
+#   format computerCoded
+# did not seem to do anything
+# Three message thread:
+# https://www.freelists.org/post/liblouis-liblouisxml/
+# What-does-the-styleformat-option-computerCoded-do
 
 ##############
 # Holding Tank
@@ -189,7 +274,6 @@ generic td \*;\s
 
 htmllink a,href
 htmltarget a,name
-code pre
 
 
 
