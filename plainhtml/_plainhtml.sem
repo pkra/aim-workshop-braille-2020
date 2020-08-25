@@ -57,16 +57,12 @@ softreturn br
 # in the  pretext-liblouis.cfg  configuration file
 # LUPM, 3.4.10, 2019-05-08, suggest 10 levels
 # We associate styles with CSS values
-heading1 div,class,fullpage
-heading2 div,class,centerpage
-heading3 div,class,center
-heading4 div,class,cell5
-heading5 div,class,cell7
+heading1 h1
+heading2 h2
+heading3 h3
+heading4 h4
+heading5 h5
 
-# "paragraphs" are an anomalous PTX invention.
-# Always terminal, can be anywhere.  We fashion
-# them with "box lines", identical to blocks
-boxline article,class,paragraphs
 
 ###################
 # Table of Contents
@@ -86,30 +82,12 @@ contentsheader div,data-braille,tableofcontents
 # as for a description list) and so
 # produce a "b" element
 boldx b
+boldx strong
+boldx dfn
 
-# PTX em => HTML em.emphasis
-italicx em,class,emphasis
+italicx em
+italicx i
 
-# PTX pubtitle => HTML span.booktitle
-italicx span,class,booktitle
-
-# PTX foreign => HTML i.foreign
-italicx i,class,foreign
-
-# PTX term => HTML dfn.terminology
-boldx dfn,class,terminology
-
-# Cannot seem to blend bold + italic
-# PTX alert => HTML em.alert
-boldx em,class,alert
-
-# Single-letter, Latin mathematics, such
-# as a variable "x" is not marked up with
-# Nemeth indicators, but instead gets an
-# HTML italics element ("i") with class
-# .one-letter, and so is converted to
-# Braille italics
-italicx i,class,one-letter
 
 ########################
 # Nemeth Math Indicators
@@ -157,7 +135,7 @@ italicx i,class,one-letter
 # "non-breaking", which  liblouis  respects,
 # and then converts to plain (x20) spaces.
 
-generic nemeth \x2838\x2829\x00a0,\x00a0\x2838\x2831
+generic mjx-container \x2838\x2829\x00a0,\x00a0\x2838\x2831
 
 
 ########
@@ -170,20 +148,11 @@ generic nemeth \x2838\x2829\x00a0,\x00a0\x2838\x2831
 # configuration file, while the PreTeXt HTML which
 # will receive this treatment is given here
 
-boxline article,data-braille,remark-like
-boxline article,data-braille,computation-like
-boxline article,data-braille,definition-like
-boxline aside,data-braille,aside-like
-boxline figure,data-braille,figure-like
-boxline article,data-braille,assemblage-like
-boxline article,data-braille,goal-like
-boxline article,data-braille,example-like
-boxline article,data-braille,project-like
-boxline article,data-braille,theorem-like
-boxline article,data-braille,proof
-
-# We box "sage" since the visual formatting is absent
-boxline article,data-braille,sage
+boxline article
+boxline aside
+boxline figure
+boxline pre
+boxline blockquote
 
 #######
 # Lists
@@ -195,12 +164,9 @@ boxline article,data-braille,sage
 # we give thos a style based on a class value, the others
 # just get dropped as pure containers.  There is only one
 # kind of list item.
-outerlist ol,class,outerlist
-outerlist ul,class,outerlist
-outerlist dl,class,outerlist
-no ol
-no ul
-no dl
+buggylist ol
+buggylist ul
+buggylist dl
 listitem li
 
 

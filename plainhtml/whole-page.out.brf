@@ -1,54 +1,4 @@
-,,html#e ,te/ ,page ''''''''''''''''' #a
-,text ''''''''''''''''''''''''''''''' #b
-,h1d+s '''''''''''''''''''''''''''''' #c
-,h1d+ #a '''''''''''''''''''''''''''' #d
-  ,h1d+ #b '''''''''''''''''''''''''' #e
-    ,h1d+ #c '''''''''''''''''''''''' #e
-      ,h1d+ #d '''''''''''''''''''''' #e
-        ,h1d+ #e '''''''''''''''''''' #e
-,p>agraphs '''''''''''''''''''''''''' #f
-,blockquotes '''''''''''''''''''''''' #g
-,li/s ''''''''''''''''''''''''''''''' #h
-    ,def9i;n li/ '''''''''''''''''''' #h
-    ,ord}$ ,li/ ''''''''''''''''''''' #h
-    ,unord}$ ,li/ ''''''''''''''''''' #h
-,horizontal rules ''''''''''''''''''' #i
-,tabul> data ''''''''''''''''''''''' #aj
-,code '''''''''''''''''''''''''''''' #ab
-  ,pre-=matt$ text ''''''''''''''''' #ac
-,9l9e ele;ts ''''''''''''''''''''''' #ad
-,,html ,com;ts ''''''''''''''''''''' #af
-,emb$d$ 3t5t ''''''''''''''''''''''' #ag
-  ,images '''''''''''''''''''''''''' #ah
-    ,no `<figure`> ele;t ''''''''''' #ah
-    ,wrapp$ 9 a `<figure`> ele;t1
-      no `<figcap;n`> '''''''''' #ah  #a
-    ,wrapp$ 9 a `<figure`> ele;t1
-      ) a `<figcap;n`> ''''''''''''' #ah
-  ,9l9e ,,svg '''''''''''''''''''''' #ai
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                      #b
-           ,,html#e ,te/ ,page
+           ,,html#e ,te/ ,page
 
 
 
@@ -77,7 +27,7 @@ build+ libl|is 3figura;ns4
 
 
 
-
+7777777777777777777777777777777777777777
 
 
 
@@ -155,10 +105,10 @@ build+ libl|is 3figura;ns4
     ,h1d+ #d
 
       ,h1d+ #e
-               ,h1d+ #f
+,h1d+ #f
+gggggggggggggggggggggggggggggggggggggggg
 
-
-
+7777777777777777777777777777777777777777
 
 
 
@@ -185,9 +135,9 @@ self-3ta9$ unit ( a 4c|rse 9 writ+ d1l+
 by ! syntax ( any language1 p>agraphs >e
 usually an expect$ "p ( =mal writ+1 us$
 to organize l;g} prose4
+gggggggggggggggggggggggggggggggggggggggg
 
-
-
+7777777777777777777777777777777777777777
 
 
 
@@ -202,8 +152,7 @@ to organize l;g} prose4
 
 
 
-
-6666666666666666666666666666666666666666
+7777777777777777777777777777777777777777
   ,a block quota;n "<al "kn z a l;g
 quota;n or extract"> is a quota;n 9 a
 writt5 docu;t1 t is set (f f ! ma9 text
@@ -213,12 +162,11 @@ z a p>agraph1 or block ( text4
 size quota;n4 ,x may or may n 9clude a
 cita;n1 usually plac$ at ! bottom4
 ,sd no "o1 "e4
+gggggggggggggggggggggggggggggggggggggggg
 
-[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+gggggggggggggggggggggggggggggggggggggggg
 
-
-
-
+7777777777777777777777777777777777777777
 
 
 
@@ -231,8 +179,8 @@ cita;n1 usually plac$ at ! bottom4
 
                ,def9i;n li/
 
-,def9i;n ,li/ ,title
-,? is a def9i;n li/ divi.n4
+,def9i;n ,li/ ,title ,? is a def9i;n li/
+divi.n4
 
                ,ord}$ ,li/
 
@@ -246,17 +194,17 @@ cita;n1 usually plac$ at ! bottom4
 ,li/ ,item #b
 ,li/ ,item #c
 
+gggggggggggggggggggggggggggggggggggggggg
 
-
-
+7777777777777777777777777777777777777777
                                       #h
             ,horizontal rules
 
 
 
+gggggggggggggggggggggggggggggggggggggggg
 
-
-
+7777777777777777777777777777777777777777
 
 
 
@@ -279,38 +227,38 @@ cita;n1 usually plac$ at ! bottom4
 
 
 
- ,table ,cap;n
-,table ,h1d+ #a                   ,table
-  ,h1d+ #b                   ,table
-  ,h1d+ #c                   ,table
-  ,h1d+ #d                   ,table
-  ,h1d+ #e                 4
-,table ,foot} #a
-  ,table ,foot} #b
-  ,table ,foot} #c
-  ,table ,foot} #d
-  ,table ,foot} #e                 4
-,table ,cell #a2
-  ,table ,cell #b2
-  ,table ,cell #c2
-  ,table ,cell #d2
-  ,table ,cell #e2                  4
-,table ,cell #a2
-  ,table ,cell #b2
-  ,table ,cell #c2
-  ,table ,cell #d2
-  ,table ,cell #e2                   #aj
-  4
-,table ,cell #a2
-  ,table ,cell #b2
-  ,table ,cell #c2
-  ,table ,cell #d2
-  ,table ,cell #e2                  4
-,table ,cell #a2
-  ,table ,cell #b2
-  ,table ,cell #c2
-  ,table ,cell #d2
-  ,table ,cell #e2                  4
+,table ,cap;n
+,table ,h1d+ #a ,table ,h1d+ #b ,table
+  ,h1d+ #c ,table ,h1d+ #d ,table ,h1d+
+  #e4
+,table ,foot} #a ,table ,foot} #b ,table
+  ,foot} #c ,table ,foot} #d ,table
+  ,foot} #e4
+,table ,cell #a2 ,table ,cell #b2 ,table
+  ,cell #c2 ,table ,cell #d2 ,table
+  ,cell #e2 4
+,table ,cell #a2 ,table ,cell #b2 ,table
+  ,cell #c2 ,table ,cell #d2 ,table
+  ,cell #e2 4
+,table ,cell #a2 ,table ,cell #b2 ,table
+  ,cell #c2 ,table ,cell #d2 ,table
+  ,cell #e2 4
+,table ,cell #a2 ,table ,cell #b2 ,table
+  ,cell #c2 ,table ,cell #d2 ,table
+  ,cell #e2 4
+gggggggggggggggggggggggggggggggggggggggg
+                                     #aj
+7777777777777777777777777777777777777777
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -352,8 +300,7 @@ f a comput} program4
                                      #ab
              ,pre-=matt$ text
 
-
-6666666666666666666666666666666666666666
+7777777777777777777777777777777777777777
 ;,,,p ;r ;e ;f o ;r ;m a ;t ;t ;e ;d ;t
 ;e ;x ;t   6 0 _? `s .0 `& ' "< "> "9 "6
 1 - 4 _/   #j"a"#b"c"#d"e"#f"g"#h"i 3 2
@@ -363,12 +310,11 @@ i ;j ;k ;l ;m ;n o   ;p ;q ;r ;s ;t ;u
 ;b ;c ;d ;e ;f ;g ;h i ;j ;k ;l ;m ;n o
  ;p ;q ;r ;s ;t ;u ;v ;w ;x ;y ;z _< _|
 _> `9
+gggggggggggggggggggggggggggggggggggggggg
 
-[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+gggggggggggggggggggggggggggggggggggggggg
 
-
-
-
+7777777777777777777777777777777777777777
 
 
 
@@ -406,9 +352,9 @@ etc4
   ,! m>k ele;t 9dicates a hi<li<t4
   ,! v>iable ele;t1 s* z ;x "7 ;y4
   ,! "t ele;t3 #b weeks ago
+gggggggggggggggggggggggggggggggggggggggg
 
-
-
+7777777777777777777777777777777777777777
 
 
 
@@ -434,7 +380,7 @@ etc4
   ,"! is com;t "h3
   ,"! is a com;t spann+ multiple tags &
 l9es 2l "h4
-
+gggggggggggggggggggggggggggggggggggggggg
 
 
 
@@ -456,7 +402,7 @@ l9es 2l "h4
 
 
 
-
+7777777777777777777777777777777777777777
 
 
 
@@ -484,23 +430,19 @@ l9es 2l "h4
      ,wrapp$ 9 a `<figure`> ele;t1 no
               `<figcap;n`>
 
-
-6666666666666666666666666666666666666666
-
-[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+7777777777777777777777777777777777777777
+gggggggggggggggggggggggggggggggggggggggg
 
     ,wrapp$ 9 a `<figure`> ele;t1 ) a
               `<figcap;n`>
 
-
-6666666666666666666666666666666666666666
+7777777777777777777777777777777777777777
 ,"h is a cap;n = ? image4
+gggggggggggggggggggggggggggggggggggggggg
 
-[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+gggggggggggggggggggggggggggggggggggggggg
 
-
-
-
+7777777777777777777777777777777777777777
 
 
 
@@ -508,10 +450,10 @@ l9es 2l "h4
                                      #ah
                ,9l9e ,,svg
 
+gggggggggggggggggggggggggggggggggggggggg
+
   ,adapt$ f html#e-te/-page1 made by
 `acbra3o4
-
-
 
 
 
