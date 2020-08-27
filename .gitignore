@@ -1,3 +1,8 @@
+appended_*.sem
+file2brl*.temp
+*.out.round
+lbx_body.temp
+
 # Logs
 logs
 *.log

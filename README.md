@@ -11,3 +11,5 @@ Licensing may vary across examples and their sources, all are freely licensed.
 ## setup
 
 ubuntu 20.04, liblouis 3.12.0-3 (from regular packages)
+
+Original HTML sem file: /usr/share/liblouisutdml/lbu_files/html.sem
